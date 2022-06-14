@@ -2,13 +2,12 @@
 
 [Link to Kaggle competition]([(https://www.kaggle.com/competitions/epf-montpellier-2022/overview/evaluation)](https://www.kaggle.com/competitions/epf-montpellier-2022/overview))
 
-The goal of this prediction model is to predict which auctions would lead to a sale and which auctions would not. By doing so, we can choose to not conduct auctions if we are confident that they would not lead to a sale. This can help us significantly decrease our infrastructure costs.
+[Link to GitHub repository](https://github.com/GabrielTruong/Teads_Kaggle_Competition)
 
-Before each auction, we dispose of some information about the context. This information can be used as an input to a classification model. The output would be wether this auction would lead to a sale or not.
+We entered this competition as a project for the Machine Learning course at our university. Our personnal goal was to learn about the process of building a Machine Learning model and obviously win the competition. 
 
-We entered the competition as a **[student](https://www.kaggle.com/competitions/epf-montpellier-2022/overview)** and participated under the NEIPA team. The goal of the competition was to predict the **[data](https://www.kaggle.com/competitions/epf-montpellier-2022/data)** about add, and predict if the add will be clicked or not.
+In this document, we will describe how we build our model and what was our mindset to learn more about Machine Learning.
 
-On this article, we will explain witch steps we followed to establish our model, and how was our mindset when we were solving the problem.
 
 ## 1. Data Collection
 
@@ -51,7 +50,7 @@ In this section, we try to understand the dataset and do the wrangling. We have 
 
 ### **Data exploration**
 
-![Check if the data is balanced](balanced.jpg "Bar plot of isSold")
+![Check if the data is balanced](./balanced.jpg "Bar plot of isSold")
 
 We can see that the data is balanced. Also the data is either `True` or `False`. This means that later, we will use a classification model. 
 
@@ -96,7 +95,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 ### **XGBoost**
 
-TODO
+NOT FINISHED YET... Update soon on github.
 
 ### **LightGBM**
 
