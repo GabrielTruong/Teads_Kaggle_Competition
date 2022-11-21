@@ -4,6 +4,8 @@
 
 [Link to GitHub repository](https://github.com/GabrielTruong/Teads_Kaggle_Competition)
 
+Contributors: [Edouard Lacourt](https://github.com/rizerkrof), [Maxime Raillat](https://github.com/Max-la-menace34) & [Antoine Royer](https://github.com/SamTouche)
+
 We entered this competition as a project for the Machine Learning course at our university. Our personnal goal was to learn about the process of building a Machine Learning model and obviously win the competition. 
 
 In this document, we will describe how we build our model and what was our mindset to learn more about Machine Learning.
